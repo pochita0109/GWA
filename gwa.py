@@ -22,3 +22,4 @@ with open("name_gwa.txt", "r") as input_file:
                ceiling_gwa = student_gwa
 # Print the output
 print("\033[1;32mHighest Gwa:" ,highest_gwa_name)
+print("\033[95mGWA:", ceiling_gwa)
