@@ -17,4 +17,7 @@ with open("name_gwa.txt", "r") as input_file:
 # Convert the gwa of students into float
           student_gwa = float(student_gwa)
 # If GWA is the highest, showcase the name and its GWA
+          if student_gwa < ceiling_gwa:
+               highest_gwa_name = student_name
+               ceiling_gwa = student_gwa
 # Print the output
