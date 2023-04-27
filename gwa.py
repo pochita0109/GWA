@@ -7,7 +7,10 @@
 # name of the student who got the highest GWA (including the GWA). 
 
 # Create a txt file that will read a file with 20 names and GWA on it
+with open("name_gwa.txt", "r") as input_file:
 # Read the contents of names_gwa.txt
+     for line in input_file:
+         print(line.strip())
 # Declare a variable for the student with highest GWA and its GWA
 # Split the student's name and its corresponding GWA
 # Convert the gwa of students into float
