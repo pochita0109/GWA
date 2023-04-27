@@ -15,5 +15,6 @@ with open("name_gwa.txt", "r") as input_file:
      for line in input_file:
           student_name, student_gwa = line.split()
 # Convert the gwa of students into float
+          student_gwa = float(student_gwa)
 # If GWA is the highest, showcase the name and its GWA
 # Print the output
